@@ -1,0 +1,40 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv
+
+# Ignore dependency files
+Pipfile
+Pipfile.lock
+poetry.lock
+requirements.txt
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore output files (e.g., from Jupyter)
+*.out
+*.err
+
+# Ignore hidden Jupyter config
+.jupyter/
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
