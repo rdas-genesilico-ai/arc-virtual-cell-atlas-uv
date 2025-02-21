@@ -15,25 +15,28 @@ Tahoe-100
 
 ## obs (cell) metadata
 
-| Column Name                 | Description |
-|-----------------------------|-------------|
-| **DATAFRAME INDEX**         | Cell identifier |
-| **sample**                  | Unique treatment identifier, distinguishes replicated treatments |
-| **gene_count**              | Number of genes with at least one count |
-| **tscp_count**              | Number of transcripts, aka UMI count |
-| **mread_count**             | Number of reads per cell |
-| **drugname_drugconc**       | Drug name, concentration, and concentration unit |
-| **drug**                    | Drug name, parsed out from the `drugname_drugconc` field |
-| **cell_line**               | Cell line Cellosaurus identifier |
-| **sublibrary**              | Sublibrary ID (related to library prep and sequencing) |
-| **BARCODE**                 | Barcode ID |
-| **pcnt_mito**               | Percentage of mitochondrial reads |
-| **S_score**                 | Inferred S phase score |
-| **G2M_score**               | Inferred G2M score |
-| **phase**                   | Inferred cell cycle phase |
-| **pass_filter**             | "Full" filters are more stringent on `gene_count` and `tscp_count` |
-| **cell_name**               | Commonly-used cell name (related to the `cell_line` field) |
-| **plate**                   | Plate identifier |
+Here's the table formatted with consistent spacing:
+
+| Column Name            | Description                                                            |
+|------------------------|------------------------------------------------------------------------|
+| **plate**              | Plate identifier                                                       |
+| **BARCODE_SUB_LIB_ID** | Cell identifier                                                        |
+| **sample**             | Unique treatment identifier, distinguishes replicated treatments       |
+| **gene_count**         | Number of genes with at least one count                                |
+| **tscp_count**         | Number of transcripts, aka UMI count                                   |
+| **mread_count**        | Number of reads per cell                                               |
+| **drugname_drugconc**  | Drug name, concentration, and concentration unit                       |
+| **drug**               | Drug name, parsed out from the `drugname_drugconc` field               |
+| **cell_line**          | Cell line Cellosaurus identifier                                       |
+| **sublibrary**         | Sublibrary ID (related to library prep and sequencing)                 |
+| **BARCODE**            | Barcode ID                                                             |
+| **pcnt_mito**          | Percentage of mitochondrial reads                                      |
+| **S_score**            | Inferred S phase score                                                 |
+| **G2M_score**          | Inferred G2M score                                                     |
+| **phase**              | Inferred cell cycle phase                                              |
+| **pass_filter**        | "Full" filters are more stringent on `gene_count` and `tscp_count`     |
+| **cell_name**          | Commonly-used cell name (related to the `cell_line` field)             |
+
 
 # Tutorials
 
