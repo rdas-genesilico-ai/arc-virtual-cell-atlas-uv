@@ -1,13 +1,13 @@
 scBaseCamp
 ==========
 
+![scBaseCamp](./img/scBaseCamp1.png)
+
 Reprocessing of 10X Genomics scRNA-seq datasets available from the Sequence Read Archive.
 
 # Dataset summary
 
 ## obs (cell) metadata
-
-
 
 # Reprocessing overview
 
