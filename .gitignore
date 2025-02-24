@@ -1,5 +1,6 @@
 # Misc
 archive/
+tmp/
 
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
