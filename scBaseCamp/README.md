@@ -21,7 +21,7 @@ By continually discovering, annotating, and reprocessing raw single-cell RNA-seq
 
 All data is located on a Google Cloud Storage bucket at `gs://arc-ctc-scbasecamp`.
 
-See the tutorials below on accessing the data.
+See the tutorials below on progamatically accessing the data.
 
 You can also directly download the data with the [gsutil tool](https://cloud.google.com/storage/docs/gsutil).
 Please be mindful of the egress costs associated with downloading data from Google Cloud Storage (costs to the Arc Institute).
