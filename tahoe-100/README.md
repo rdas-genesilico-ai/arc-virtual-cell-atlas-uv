@@ -42,12 +42,11 @@ Here's the table formatted with consistent spacing:
 
 * [Python](./tutorial-py.ipynb)
 
+
 # Resources
 
 * [Vevo Theraputics](https://www.vevo.ai/)
-* [scanpy](https://scanpy.readthedocs.io/en/stable/)
-* [anndata](https://anndata.readthedocs.io/en/latest/)
-* [pandas](https://pandas.pydata.org/docs/)
+
 
 # Contact
 

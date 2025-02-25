@@ -89,7 +89,13 @@ Each individual cell (obs) contains:
 
 # Tutorials
 
-* [Python tutorial](./tutorials/tutorial-py.ipynb)
+* [Python tutorial](./tutorial-py.ipynb)
+* [R tutorial](./tutorial-R.ipynb)
+
+
+# Resources
+
+* [Arc Institute](https://arcinstitute.org)
 
 
 # Contact
