@@ -12,7 +12,7 @@ scBaseCamp
 
 scBaseCamp is a continuously updated single-cell RNA-seq database that employs an AI-driven, hierarchical agent workflow to automate discovery, metadata extraction, and standardized preprocessing of Sequence Read Archive (SRA) data.
 
-Currently the largest public repository of single-cell data comprising over 200 million cells (and expanding), spanning 21 organisms and 72 tissues.
+Currently the largest public repository of single-cell data comprising over 230 million cells (and expanding), spanning 21 organisms and 72 tissues.
 
 By continually discovering, annotating, and reprocessing raw single-cell RNA-seq data, scBaseCamp offers an expansive and harmonized repository that can serve as a foundation for AI-driven modeling and integrative meta-analyses.
 
@@ -58,7 +58,7 @@ Each sample includes the following metadata fields:
 
 **Technical Information**
 * `lib_prep`: Library preparation method (10X Genomics or other)
-* `tech_10x`: Specific 10X Genomics technology (3' or 5')
+* `tech_10x`: Specific 10X Genomics technology (e.g. 3' or 5')
 * `cell_prep`: Sample preparation type (single nucleus or single cell)
 
 **Biological Information**
