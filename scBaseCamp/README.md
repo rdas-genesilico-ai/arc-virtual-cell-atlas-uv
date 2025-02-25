@@ -16,6 +16,10 @@ Currently the largest public repository of single-cell data comprising over 200 
 
 By continually discovering, annotating, and reprocessing raw single-cell RNA-seq data, scBaseCamp offers an expansive and harmonized repository that can serve as a foundation for AI-driven modeling and integrative meta-analyses.
 
+## Manuscript
+
+[scBaseCamp: an AI agent-curated, uniformly processed, and continually expanding single cell data repository](https://arc-website-git-ben-virtual-cell-atlas-tool-arc-institute.vercel.app/manuscripts/scBaseCamp)
+
 
 # Dataset location
 
