@@ -1,7 +1,7 @@
 scBaseCamp
 ==========
 
-### Reprocessing of 10X Genomics scRNA-seq datasets available from the Sequence Read Archive.
+### An AI agent-curated, uniformly processed, and continually expanding single cell data repository
 
 <a href="https://arcinstitute.org/manuscripts//scBaseCamp">
   <img src="./img/scBaseCamp_banner.jpg" alt="scBaseCamp" width="780" height="415">
