@@ -74,6 +74,22 @@ Each individual cell (obs) contains:
 * `gene_count`: Number of unique genes detected
 * `umi_count`: Total number of Unique Molecular Identifiers (UMIs)
 
+#### STARsolo Count Features
+
+* **Gene:** Counts reads mapping entirely to exonic regions of annotated transcripts, capturing fully spliced
+transcripts. This procedure represents traditional gene expression analyses and was the default in earlier
+CellRanger versions.
+* **GeneFull:** Counts reads overlapping entire gene locus, i.e. including exonic and intronic regions. This
+captures both unspliced (primary) and spliced transcripts and providing a more comprehensive view of
+gene activity.
+* **GeneFull_ExonOverIntron:** Counts reads overlapping exonic and intronic regions, but assigns higher
+priority to exonic overlaps. This option helps to resolve reads that map to overlapping genes.
+* **GeneFull_Ex50pAS:** Similar to the above option, but with more sophisticated priorities scheme, which
+prioritizes partial and antisense exonic overlap over intronice reads.
+* **Velocyto:** Generates separate count matrices for spliced, unspliced, and ambiguous reads, following
+the rules from ([La Manno et al., 2018](https://doi.org/10.1038/s41586-018-0414-6)). 
+This enables RNA velocity analyses to infer dynamic cellular processes.
+
 #### Notes
 
 * Currently, the dataset does NOT include cell type annotations.
@@ -85,6 +101,7 @@ Each individual cell (obs) contains:
      * The `X` matrix is `spliced` matrix, in addition to the `spliced` layer.
 * We are currently not using [TileDB-SOMA](https://tiledbsoma.readthedocs.io/en/latest/index.html)
   due to some challenges with scaling, but we are actively working on this.
+
 
 
 # Tutorials
