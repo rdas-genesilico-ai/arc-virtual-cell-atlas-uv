@@ -3,7 +3,7 @@ scBaseCamp
 
 ### An AI agent-curated, uniformly processed, and continually expanding single cell data repository
 
-<a href="https://arcinstitute.org/manuscripts//scBaseCamp">
+<a href="https://arcinstitute.org/news/news/arc-virtual-cell-atlas-launch">
   <img src="./img/scBaseCamp_banner.jpg" alt="scBaseCamp" width="780" height="415">
 </a>
 
@@ -18,7 +18,7 @@ By continually discovering, annotating, and reprocessing raw single-cell RNA-seq
 
 ## Manuscript
 
-[scBaseCamp: an AI agent-curated, uniformly processed, and continually expanding single cell data repository](https://arc-website-git-ben-virtual-cell-atlas-tool-arc-institute.vercel.app/manuscripts/scBaseCamp)
+[scBaseCamp: an AI agent-curated, uniformly processed, and continually expanding single cell data repository](https://arcinstitute.org/manuscripts/scBaseCamp)
 
 
 # Dataset location
