@@ -99,6 +99,9 @@ This enables RNA velocity analyses to infer dynamic cellular processes.
   * `GeneFull*` will have more counts than `Gene` due to the mapping algorithm.
   * `Velocyto` h5ad files include 3 layers: `spliced`, `unspliced`, and `ambiguous`.
      * The `X` matrix is `spliced` matrix, in addition to the `spliced` layer.
+  * `unique` mapping is used for all count features.
+    * `EM` and `uniform` mapping will be added soon.
+    * However, we have found that `unique` mapping is the best choice for at least most datasets.
 * We are currently not using [TileDB-SOMA](https://tiledbsoma.readthedocs.io/en/latest/index.html)
   due to some challenges with scaling, but we are actively working on this.
 
