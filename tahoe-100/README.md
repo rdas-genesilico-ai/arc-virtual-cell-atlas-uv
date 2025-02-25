@@ -13,6 +13,10 @@ Tahoe-100
   * Sample count: 1344
   * Cell count: 100648790
 
+## Manuscript
+
+[Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling](https://doi.org/10.1101/2025.02.20.639398)
+
 ## obs (cell) metadata
 
 Here's the table formatted with consistent spacing:
