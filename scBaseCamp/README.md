@@ -4,7 +4,7 @@ scBaseCamp
 ### Reprocessing of 10X Genomics scRNA-seq datasets available from the Sequence Read Archive.
 
 <a href="https://arcinstitute.org/manuscripts//scBaseCamp">
-  <img src="./img/scBaseCamp1.png" alt="scBaseCamp" width="720" height="410">
+  <img src="./img/scBaseCamp_banner.jpg" alt="scBaseCamp" width="780" height="415">
 </a>
 
 
