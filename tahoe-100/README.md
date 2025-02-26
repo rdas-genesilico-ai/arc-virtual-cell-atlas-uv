@@ -46,6 +46,11 @@ Here's the table formatted with consistent spacing:
 
 * [Python](./tutorial-py.ipynb)
 
+# Notes
+
+* `.h5ad.gz` file extensions denote internal gzip compression. 
+  * See the [Python tutorial](./tutorial-py.ipynb) on reading in the anndata objects.
+
 
 # Resources
 

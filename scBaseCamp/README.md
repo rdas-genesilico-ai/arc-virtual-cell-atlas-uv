@@ -108,7 +108,7 @@ This enables RNA velocity analyses to infer dynamic cellular processes.
     * However, we have found that `unique` mapping is the best choice for at least most datasets.
 * We are currently not using [TileDB-SOMA](https://tiledbsoma.readthedocs.io/en/latest/index.html)
   due to some challenges with scaling, but we are actively working on this.
-
+* `.h5ad.gz` file extensions denote internal gzip compression. 
 
 
 # Tutorials
