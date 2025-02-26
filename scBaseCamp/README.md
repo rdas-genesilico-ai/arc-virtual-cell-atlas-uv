@@ -16,6 +16,22 @@ Currently the largest public repository of single-cell data comprising over 230 
 
 By continually discovering, annotating, and reprocessing raw single-cell RNA-seq data, scBaseCamp offers an expansive and harmonized repository that can serve as a foundation for AI-driven modeling and integrative meta-analyses.
 
+## IMPORTANT NOTICE
+
+> We are converting file extensions from `parquet.gz` and `h5ad.gz` to `parquet` and `h5ad`, respectively. The `*.gz` files will be **deleted on Friday, Feb 26 2025 at 5:00 PM PST.**
+You can copy just the `parquet` and `h5ad`, files via: `rsync`:
+
+```bash
+gsutil -m rsync -r -x "^(?\!.*\.parquet$)" "gs://arc-ctc-scbasecamp/2025-02-25/metadata"
+```
+
+```bash
+gsutil -m rsync -r -x "^(?\!.*\.h5ad$)" "gs://arc-ctc-scbasecamp/2025-02-25/h5ad"
+```
+
+**Sorry for the inconvience!**
+
+
 ## Manuscript
 
 [scBaseCamp: an AI agent-curated, uniformly processed, and continually expanding single cell data repository](https://arcinstitute.org/manuscripts/scBaseCamp)
