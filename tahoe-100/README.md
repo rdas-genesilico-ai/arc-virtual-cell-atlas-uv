@@ -20,11 +20,11 @@ Tahoe-100
 You can copy just the `parquet` and `h5ad`, files via: `rsync`:
 
 ```bash
-gsutil -m rsync -r -x "^(?\!.*\.parquet$)" "gs://arc-ctc-scbasecamp/2025-02-25/metadata"
+gsutil -m rsync -r -x "^(?\!.*\.parquet$)" "gs://arc-ctc-tahoe100/2025-02-25/metadata"
 ```
 
 ```bash
-gsutil -m rsync -r -x "^(?\!.*\.h5ad$)" "gs://arc-ctc-scbasecamp/2025-02-25/h5ad"
+gsutil -m rsync -r -x "^(?\!.*\.h5ad$)" "gs://arc-ctc-tahoe100/2025-02-25/h5ad"
 ```
 
 **Sorry for the inconvience!**
