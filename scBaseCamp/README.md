@@ -65,7 +65,7 @@ Each sample includes the following metadata fields:
 * `organism`: Species of origin
 * `tissue`: Source tissue
 * `disease`: Disease status (if applicable)
-* `purturbation`: Experimental perturbations (if applicable)
+* `perturbation`: Experimental perturbations (if applicable)
 * `cell_line`: Cell line information (if applicable)
 
 **Collection Information**
