@@ -17,7 +17,7 @@ Tahoe-100
 ## IMPORTANT NOTICE
 
 > We are converting file extensions from `parquet.gz` and `h5ad.gz` to `parquet` and `h5ad`, respectively. The `*.gz` files will be **deleted on Friday, Feb 26 2025 at 5:00 PM PST.**
-You can copy just the `parquet` and `h5ad`, files via: `rsync`:
+You can copy just the `parquet` and `h5ad` files (and not include the `*.gz` files) via: `rsync. For example:
 
 ```bash
 gsutil -m rsync -r -x "^(?\!.*\.parquet$)" "gs://arc-ctc-tahoe100/2025-02-25/metadata"
