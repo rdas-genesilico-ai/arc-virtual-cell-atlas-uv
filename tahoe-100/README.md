@@ -13,24 +13,6 @@ Tahoe-100
   * Sample count: 1344
   * Cell count: 100648790
 
-
-## IMPORTANT NOTICE
-
-> We are converting file extensions from `parquet.gz` and `h5ad.gz` to `parquet` and `h5ad`, respectively. The `*.gz` files will be **deleted on Friday, Feb 26 2025 at 5:00 PM PST.**
-You can copy just the `parquet` and `h5ad` files (and not include the `*.gz` files) via: `rsync. For example:
-
-```bash
-gsutil -m rsync -r -x "^(?\!.*\.parquet$)" "gs://arc-ctc-tahoe100/2025-02-25/metadata"
-```
-
-```bash
-gsutil -m rsync -r -x "^(?\!.*\.h5ad$)" "gs://arc-ctc-tahoe100/2025-02-25/h5ad"
-```
-
-**Sorry for the inconvience!**
-
-
-
 ## Manuscript
 
 [Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling](https://doi.org/10.1101/2025.02.20.639398)

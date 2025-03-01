@@ -6,22 +6,6 @@ The atlas includes both observational and perturbational data from over 330 mill
 
 The atlas is bootstrapped with [Vevo’s](https://www.vevo.ai/) Tahoe-100 and [Arc’s](https://arcinstitute.org/) AI agent-curated scBaseCamp dataset.
 
-## IMPORTANT NOTICE
-
-> We are converting file extensions from `parquet.gz` and `h5ad.gz` to `parquet` and `h5ad`, respectively. The `*.gz` files will be **deleted on Friday, Feb 26 2025 at 5:00 PM PST.**
-You can copy just the `parquet` and `h5ad` files (and not include the `*.gz` files) via: `rsync`. For example:
-
-```bash
-gsutil -m rsync -r -x "^(?\!.*\.parquet$)" "gs://arc-ctc-scbasecamp/2025-02-25/metadata/Gene/"
-```
-
-```bash
-gsutil -m rsync -r -x "^(?\!.*\.h5ad$)" "gs://arc-ctc-scbasecamp/2025-02-25/h5ad/Gene/"
-```
-
-**Sorry for the inconvience!**
-
-
 
 # Tahoe-100
 
