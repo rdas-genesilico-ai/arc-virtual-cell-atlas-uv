@@ -132,5 +132,14 @@ This enables RNA velocity analyses to infer dynamic cellular processes.
 
 
 # Citation
-
-TODO
+```
+@article {Youngblut2025.02.27.640494,
+	author = {Youngblut, Nicholas D and Carpenter, Christopher and Prashar, Jaanak and Ricci-Tam, Chiara and Ilango, Rajesh and Teyssier, Noam and Konermann, Silvana and Hsu, Patrick and Dobin, Alexander and Burke, David P and Goodarzi, Hani and Roohani, Yusuf H},
+	title = {scBaseCamp: An AI agent-curated, uniformly processed, and continually expanding single cell data repository},
+	year = {2025},
+	doi = {10.1101/2025.02.27.640494},
+	publisher = {Cold Spring Harbor Laboratory},
+	journal = {bioRxiv}
+}
+```
+- [Paper](https://www.biorxiv.org/content/early/2025/03/04/2025.02.27.640494)
