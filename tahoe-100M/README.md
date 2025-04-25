@@ -1,5 +1,5 @@
-Tahoe-100
-=========
+Tahoe-100M
+==========
 
 # Overview
 
@@ -52,7 +52,7 @@ Tahoe-100
 
 # Resources
 
-* [Vevo Theraputics](https://www.vevo.ai/)
+* [Tahoe](https://www.tahoebio.ai/)
 
 
 # Contact
